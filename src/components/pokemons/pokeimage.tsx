@@ -2,7 +2,7 @@ import { component$, useSignal, useTask$ } from "@builder.io/qwik"
 
 interface Props{
     id:number
-    back:boolean
+    back?:boolean
 }
 
 export const PokeImage = component$(({id,back=false}:Props) => {
